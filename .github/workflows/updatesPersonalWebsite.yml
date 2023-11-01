@@ -9,6 +9,7 @@ jobs:
         steps:
             - name: Clone
               run: |
+                cd ../
                 git clone git@github.com:Xcanton/HugoGitIoPersonalServer.git
                 cd HugoGitIoPersonalServer
             - name: Update
