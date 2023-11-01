@@ -1,3 +1,9 @@
+---
+title: "lm-infinite"
+date: 2023-11-01T15:43:13+08:00
+draft: false
+---
+
 # LM-Infinite
 
 论文《[LM-INFINITE: SIMPLE ON-THE-FLY LENGTH GENERALIZATION FOR LARGE LANGUAGE MODELS](https://arxiv.org/abs/2308.16137)的阅读记录。
