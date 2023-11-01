@@ -1,0 +1,20 @@
+name: updatesPersonalWebsite
+
+on:
+    push:
+    workflow_dispatch:
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Clone
+              run: |
+                git clone git@github.com:Xcanton/HugoGitIoPersonalServer.git
+                cd HugoGitIoPersonalServer
+            - name: Update
+              run: |
+                sh codes/GitPush.sh
+            - name: Delete
+              run: |
+                cd ../
+                rm -rf ./HugoGitIoPersonalServer
