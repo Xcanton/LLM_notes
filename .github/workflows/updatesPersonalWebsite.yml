@@ -15,7 +15,7 @@ jobs:
               with:
                 owner: 'Xcanton'
                 repository: 'HugoGitIoPersonalServer'
-                access-token: ${{ secrets.PersonalWebsite  }}
+                access-token: ${{ secrets.ACCESS_TOKEN }}
             - name: Update
               run: |
                 cd HugoGitIoPersonalServer
