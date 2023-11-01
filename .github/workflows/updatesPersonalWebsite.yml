@@ -7,13 +7,18 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
-            - name: Clone
+            - name: Backwards
               run: |
                 cd ../
-                git clone git@github.com:Xcanton/HugoGitIoPersonalServer.git
-                cd HugoGitIoPersonalServer
+            - name: Clone HugoGitIoPersonalServer
+              uses: GuillaumeFalourd/clone-github-repo-action@v2.2
+              with:
+                owner: 'Xcanton'
+                repository: 'HugoGitIoPersonalServer'
+                access-token: ${{ secrets.ACCESS_TOKEN }}
             - name: Update
               run: |
+                cd HugoGitIoPersonalServer
                 sh codes/GitPush.sh
             - name: Delete
               run: |
