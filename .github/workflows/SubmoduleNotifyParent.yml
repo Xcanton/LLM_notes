@@ -22,7 +22,7 @@ jobs:
     steps:
     - name: Github REST API Call
       env:
-        CI_TOKEN: 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
+        CI_TOKEN: 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
         PARENT_REPO: Xcanton/HugoGitIoPersonalServer
         PARENT_BRANCH: master
         WORKFLOW_ID: 75260932
