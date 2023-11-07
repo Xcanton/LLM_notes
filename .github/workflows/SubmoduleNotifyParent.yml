@@ -2,8 +2,7 @@ name: 'SubmoduleNotifyParent'
 
 on:
   push:
-    branches:
-      - main    
+    branches:  
       - master
 
   # Allows you to run this workflow manually from the Actions tab
@@ -22,7 +21,7 @@ jobs:
     steps:
     - name: Github REST API Call
       env:
-        CI_TOKEN: ${{ secrets.PersonalWebsite }}
+        CI_TOKEN: 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
         PARENT_REPO: Xcanton/HugoGitIoPersonalServer
         PARENT_BRANCH: master
         WORKFLOW_ID: 75260932
