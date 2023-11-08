@@ -1,4 +1,2 @@
----
-Title: LLM_notes
-type: list
----
+# \_index
+
