@@ -50,6 +50,7 @@
   * [P-Tuning](tuning/p-tuning.md)
   * [PPO](tuning/ppo.md)
   * [Q-Lora](tuning/q-lora.md)
+  * [MOE-Lora](tuning/moe-lora.md)
 * [🤔 hullusion-and-training-innovations](hullusion-and-training-innovations/README.md)
   * [\_index](hullusion-and-training-innovations/\_index.md)
   * [LM-Infinite](hullusion-and-training-innovations/lm-infinite.md)
