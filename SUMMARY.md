@@ -63,6 +63,7 @@
     * [LLM4TS: Two-Stage Fine-Tuning for Time-Series Forecasting with Pre-Trained LLMs](timeseries-prediction-of-llm/ts-for-llm/llm4ts-two-stage-fine-tuning-for-time-series-forecasting-with-pre-trained-llms.md)
     * [LLM for Time Series：Text Prototype Aligned Embedding to Activate LLM’s Ability for Time Series](timeseries-prediction-of-llm/ts-for-llm/llm-for-time-series-text-prototype-aligned-embedding-to-activate-llms-ability-for-time-series.md)
     * [TEMPO: prompt-based generative pre-trained transformer for time series forecasting](timeseries-prediction-of-llm/ts-for-llm/tempo-prompt-based-generative-pre-trained-transformer-for-time-series-forecasting.md)
+    * [Large Language Models Are Zero-Shot Time Series Forecasters \[NeurIPS2023\]](timeseries-prediction-of-llm/ts-for-llm/large-language-models-are-zero-shot-time-series-forecasters-neurips2023.md)
 * [other-papers](other-papers/README.md)
   * [\_index](other-papers/\_index.md)
   * [Flan](other-papers/flan.md)
