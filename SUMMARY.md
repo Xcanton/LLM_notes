@@ -64,6 +64,7 @@
     * [LLM for Time Series：Text Prototype Aligned Embedding to Activate LLM’s Ability for Time Series](timeseries-prediction-of-llm/ts-for-llm/llm-for-time-series-text-prototype-aligned-embedding-to-activate-llms-ability-for-time-series.md)
     * [TEMPO: prompt-based generative pre-trained transformer for time series forecasting](timeseries-prediction-of-llm/ts-for-llm/tempo-prompt-based-generative-pre-trained-transformer-for-time-series-forecasting.md)
     * [Large Language Models Are Zero-Shot Time Series Forecasters \[NeurIPS2023\]](timeseries-prediction-of-llm/ts-for-llm/large-language-models-are-zero-shot-time-series-forecasters-neurips2023.md)
+    * [Time-LLM: Time Series Forecasting by Reprogramming Large Language Models \[ICLR 2024\]](timeseries-prediction-of-llm/ts-for-llm/time-llm-time-series-forecasting-by-reprogramming-large-language-models-iclr-2024.md)
 * [other-papers](other-papers/README.md)
   * [\_index](other-papers/\_index.md)
   * [Flan](other-papers/flan.md)
