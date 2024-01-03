@@ -1,4 +1,0 @@
----
-Title: attention
-type: list
----

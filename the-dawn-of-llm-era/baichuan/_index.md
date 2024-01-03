@@ -1,4 +1,0 @@
----
-Title: baichuan
-type: list
----
