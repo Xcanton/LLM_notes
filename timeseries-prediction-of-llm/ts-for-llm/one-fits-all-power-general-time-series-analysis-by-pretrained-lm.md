@@ -1,4 +1,10 @@
 ---
+title: "one-fits-all-power-general-time-series-analysis-by-pretrained-lm"
+date: 2024-01-03T22:59:53+08:00
+draft: false
+---
+
+---
 description: https://arxiv.org/abs/2302.11939
 ---
 

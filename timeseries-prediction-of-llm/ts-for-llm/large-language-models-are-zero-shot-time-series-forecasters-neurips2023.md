@@ -1,4 +1,10 @@
 ---
+title: "large-language-models-are-zero-shot-time-series-forecasters-neurips2023"
+date: 2024-01-03T22:59:53+08:00
+draft: false
+---
+
+---
 description: https://arxiv.org/abs/2310.07820
 ---
 

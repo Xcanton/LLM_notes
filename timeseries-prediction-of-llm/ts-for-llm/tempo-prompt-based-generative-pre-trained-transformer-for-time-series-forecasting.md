@@ -1,4 +1,10 @@
 ---
+title: "tempo-prompt-based-generative-pre-trained-transformer-for-time-series-forecasting"
+date: 2024-01-03T22:59:53+08:00
+draft: false
+---
+
+---
 description: https://arxiv.org/abs/2310.04948
 ---
 

@@ -1,4 +1,10 @@
 ---
+title: "llm4ts-two-stage-fine-tuning-for-time-series-forecasting-with-pre-trained-llms"
+date: 2024-01-03T22:59:53+08:00
+draft: false
+---
+
+---
 description: https://arxiv.org/abs/2308.08469
 ---
 

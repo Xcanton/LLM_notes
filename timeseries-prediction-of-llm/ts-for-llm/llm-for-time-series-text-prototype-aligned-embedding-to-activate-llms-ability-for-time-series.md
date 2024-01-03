@@ -1,4 +1,10 @@
 ---
+title: "llm-for-time-series-text-prototype-aligned-embedding-to-activate-llms-ability-for-time-series"
+date: 2024-01-03T22:59:53+08:00
+draft: false
+---
+
+---
 description: https://arxiv.org/abs/2308.08241
 ---
 
