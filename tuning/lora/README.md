@@ -47,9 +47,17 @@ $$
 * 矩阵A和矩阵B通过点乘的方式变成与原参数矩阵维度相同的大小，可以通过对位相加合并
 * $\alpha$是一个超参，论文中根据第一次实验设置的值就固定下来了。作用是对噪声更小的$\delta$权重放大其变化率和更新率
 
+### 初始化方式
+
+<figure><img src="../../.gitbook/assets/Image_20240119170153.png" alt=""><figcaption></figcaption></figure>
+
+对$\alpha$随机设定成一个固定的值，在huggingface peft中是8。
+
+论文中说对A使用高斯分布的随机初始化，对B初始化成0。不过在作者实际上并没有发现相反的初始化会带来什么新的问题。他在[issues](https://github.com/microsoft/LoRA/issues/98)中回复到：可以反过来初始化，即其中一个随机初始化，另一个初始化成0即可。[https://github.com/microsoft/LoRA/issues/98](https://github.com/microsoft/LoRA/issues/98)
+
 ## 微调效果
 
-### 可以节约显存（1/3倍）和存储（10000倍，r=4）
+### 可以节约显存（1/3倍）、训练时间（25%）和存储（10000倍，r=4）
 
 可以节约显存和存储，因为大部分参数不需要存储梯度。但是！<mark style="color:red;">实际计算梯度的显存是大于全量调参的，并不能节约计算</mark>！
 
