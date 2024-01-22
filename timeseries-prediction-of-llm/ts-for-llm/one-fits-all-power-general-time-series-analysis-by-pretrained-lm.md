@@ -16,7 +16,7 @@ description: https://arxiv.org/abs/2302.11939
 * 文章认为基于文本域训练的llm适用于时间序列的一个可能原因是， 自监督的self-attention模块在训练过程中学会了和和具体数据无关的一些运算规则，比如PCA（通过对比对比两个模块的中间结果），使之成为一个广义的计算引擎；
 * 以GPT2为backbone进行了时间序列异常检测、长短期预测等实验，效果均较好;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Model Structure</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Model Structure</p></figcaption></figure>
 
 ## Instance Norm (Channel维度的标准化)
 
