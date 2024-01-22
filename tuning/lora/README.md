@@ -118,3 +118,9 @@ if not mode and self.merge_weights and not self.merged:
 <figure><img src="../../.gitbook/assets/Image_20240119153643.png" alt=""><figcaption><p>Reading Notes</p></figcaption></figure>
 
 ## 论文实验
+
+[experience1-effectiveness.md](experience1-effectiveness.md "mention")
+
+[experience2-hyper-parameters.md](experience2-hyper-parameters.md "mention")
+
+[experience3-mechanism.md](experience3-mechanism.md "mention")

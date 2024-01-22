@@ -20,3 +20,9 @@
 <figure><img src="../../.gitbook/assets/Image_20240119173104.png" alt=""><figcaption></figcaption></figure>
 
 实验认为，小量的rank已经可以达到较好的效果，增加rank并不能带来线性的增益（所映射的子空间并没有包含更多信息）。
+
+<figure><img src="../../.gitbook/assets/Image_20240122102720.png" alt=""><figcaption></figcaption></figure>
+
+但注释中说，针对不同的任务，LoRA的rank可能合适的数量不相同。有些任务的最小rank不一定为2或4。
+
+为什么分解后rank小也能取得较好的效果，论文接下来进行了后续实验探究LoRA的机制原理。
