@@ -44,6 +44,7 @@
     * [Experience1 Effectiveness](tuning/lora/experience1-effectiveness.md)
     * [Experience2 Hyper-parameters](tuning/lora/experience2-hyper-parameters.md)
     * [Experience3 Mechanism](tuning/lora/experience3-mechanism.md)
+    * [Peft源码解读](tuning/lora/peft-yuan-ma-jie-du.md)
   * [NEFTune](tuning/neftune.md)
   * [P-Tuning V2](tuning/p-tuning-v2.md)
   * [P-Tuning](tuning/p-tuning.md)
