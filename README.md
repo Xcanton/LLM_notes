@@ -1,3 +1,7 @@
+---
+description: https://zhuanlan.zhihu.com/p/49271699
+---
+
 # 🌌 before-llm-era
 
 ## 预训练技术的兴起
